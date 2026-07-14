@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    line-height:1.8;
+    background:#f4f4f4;
+    color:#333;
+}
+
+
+
+.hero{
+    background:#0d1b2a;
+    color:#fff;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero h1{
+    font-family:'Merriweather',serif;
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+.tagline{
+    font-size:1.2rem;
+    margin-bottom:30px;
+    color:#d8e6ff;
+}
+
+.hero img{
+    width:280px;
+    max-width:90%;
+    border-radius:15px;
+    border:6px solid #fff;
+    box-shadow:0 10px 20px rgba(0,0,0,.3);
+}
+
+
+
+.biography{
+    background:#ffffff;
+    padding:60px 10%;
+}
+
+.biography h2{
+    font-family:'Merriweather',serif;
+    font-size:2rem;
+    margin-bottom:25px;
+    color:#0d1b2a;
+    text-align:center;
+}
+
+.biography p{
+    margin-bottom:18px;
+    text-align:justify;
+    font-size:17px;
+}
+
+
+
+.timeline{
+    background:#e8f1ff;
+    padding:60px 10%;
+}
+
+.timeline h2{
+    text-align:center;
+    font-family:'Merriweather',serif;
+    color:#0d1b2a;
+    margin-bottom:30px;
+    font-size:2rem;
+}
+
+.timeline ol{
+    max-width:800px;
+    margin:auto;
+}
+
+.timeline li{
+    background:#fff;
+    margin-bottom:15px;
+    padding:18px;
+    border-left:6px solid #0077b6;
+    border-radius:8px;
+    box-shadow:0 3px 8px rgba(0,0,0,.08);
+}
+
+
+
+.quote{
+    background:#14213d;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.quote blockquote{
+    font-family:'Merriweather',serif;
+    font-size:1.8rem;
+    font-style:italic;
+    max-width:850px;
+    margin:auto;
+}
+
+.quote p{
+    margin-top:20px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+
+
+footer{
+    background:#000;
+    color:white;
+    text-align:center;
+    padding:18px;
+}
+
+
+
+@media(max-width:768px){
+
+    .hero h1{
+        font-size:2.2rem;
+    }
+
+    .tagline{
+        font-size:1rem;
+    }
+
+    .hero img{
+        width:220px;
+    }
+
+    .biography,
+    .timeline{
+        padding:40px 25px;
+    }
+
+    .quote blockquote{
+        font-size:1.4rem;
+    }
+
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>📝 To-Do List</h1>
+
+        <div class="input-box">
+
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a new task..."
+            >
+
+            <button id="addTaskBtn">
+                Add Task
+            </button>
+
+        </div>
+
+        <!-- Pending Section -->
+
+        <div class="task-section">
+
+            <div class="heading">
+
+                <h2>Pending Tasks</h2>
+
+                <span id="pendingCount">
+                    0 Pending
+                </span>
+
+            </div>
+
+            <p id="pendingEmpty" class="empty-message">
+                No pending tasks 🎉
+            </p>
+
+            <ul id="pendingList">
+
+            </ul>
+
+        </div>
+
+        <!-- Completed Section -->
+
+        <div class="task-section">
+
+            <div class="heading">
+
+                <h2>Completed Tasks</h2>
+
+                <span id="completedCount">
+                    0 Completed
+                </span>
+
+            </div>
+
+            <p id="completedEmpty" class="empty-message">
+                No completed tasks yet.
+            </p>
+
+            <ul id="completedList">
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
